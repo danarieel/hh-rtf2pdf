@@ -1,4 +1,4 @@
-# resume-bot
+# hh-rtf-to-pdf
 
 [English](#english) | [Русский](#русский)
 
