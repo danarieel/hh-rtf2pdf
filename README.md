@@ -1,4 +1,4 @@
-# hh-rtf-to-pdf
+# hh-rtf2pdf
 
 [English](#english) | [Русский](#русский)
 
