@@ -23,9 +23,9 @@ Telegram-бот для конвертации резюме из hh.ru в сти�
 2. Проблемы с отступами и переносами строк в ReportLab. Решил через использование `<br/>` и настройку `ParagraphStyle`.
 3. Сетевые таймауты Telegram в WSL. Решил добавлением поддержки SOCKS5-прокси через `aiohttp-socks`.
 
-**Ограничения:** Работает только с форматом `.rtf`. Требует локальной нейросети или API не используется (все парсится локально по регуляркам).
+**Ограничения:** Работает только с форматом .rtf. Нейросети и внешние API не используются, всё разбирается локально регулярными выражениями. Файлы не сохраняются.
 
-**Лицензия:** MIT
+Лицензия:** MIT
 
 ---
 
@@ -48,6 +48,6 @@ The bot accepts an `.rtf` file downloaded from hh.ru, parses it (extracting cont
 2. Layout issues in ReportLab. Fixed by using `<br/>` and tuning `ParagraphStyle`.
 3. Telegram network timeouts in WSL. Fixed by adding SOCKS5 proxy support via `aiohttp-socks`.
 
-**Limitations:** Works only with `.rtf` format.
+**Limitations:** Works only with .rtf files. No neural networks or external APIs are used; everything is parsed locally with regular expressions. Files are not stored.
 
-**License:** MIT
+License:** MIT
